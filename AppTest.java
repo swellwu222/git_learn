@@ -18,7 +18,7 @@ public class AppTest
      */
     public AppTest( String testName )
     {
-        super( testName );
+ //       super( testName );
     }
 
     /**
@@ -35,5 +35,10 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+
+    public void devFun()
+    {
+
     }
 }
