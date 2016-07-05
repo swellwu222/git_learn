@@ -1,10 +1,13 @@
 ##学习git和github常用操作
 
-###关联本地仓库和远程仓库
+###关联远程仓库
 ```
-git remoteadd origin https://github.com/swellwu222/git_learn.git
+git remote add origin https://github.com/swellwu222/git_learn.git
 ```
-
+###克隆远程仓库
+```
+git clone https://github.com/swellwu222/git_learn.git
+```
 ###提交文件到本地参考
 ```
 git add .
@@ -22,4 +25,7 @@ git status
 git diff
 ```
 
-一些错误的改动：hwefhweofwjheifjpwoejfiwj，应该恢复
+###查看提交历史
+```
+git log
+```
