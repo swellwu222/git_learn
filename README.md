@@ -50,17 +50,32 @@ git reset --hard commit-id
 ###分支
 ####创建与分支
 ```
-git branch dev
+git branch <name>
 ```
 ####切换分支
 ```
-git checkout dev
+git checkout <name>
 ```
 ####创建并切换
 ```
-git checkout -b dev
+git checkout -b <name>
 ```
 ####查看分支
 ```
 git branch
 ```
+####合并某分支到当前分支
+```
+git merge <name>
+```
+####删除分支
+```
+git branch -d <name>
+```
+当合并冲突时需要手动解决冲突
+####查看分支图
+```
+git log --graph
+```
+####提交忽略
+在git工作区根目录下建一个.gitignore文件，里面填上需要忽略的文件，然后把.gitignore文件提交
