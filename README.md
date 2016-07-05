@@ -29,3 +29,8 @@ git diff
 ```
 git log
 ```
+
+###回退版本
+```
+git reset --hard commit-id
+```
