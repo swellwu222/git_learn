@@ -11,13 +11,14 @@ git add .
 git commit -m "修改记录"
 ```
 
-###提交到master分支
+###提交到远程master分支
 ```
 git push -u origin master
 ```
 
-#查看状态和改动
+###查看状态和改动
 ```
 git status
 git diff
 ```
+
