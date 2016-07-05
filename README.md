@@ -34,3 +34,7 @@ git log
 ```
 git reset --hard commit-id
 ```
+###查看命令记录
+```
+git reflog
+```
