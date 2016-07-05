@@ -10,6 +10,12 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+
+    public void badFun()
+    {
+
+    }
+
     /**
      * Create the test case
      *
